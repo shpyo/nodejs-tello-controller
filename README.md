@@ -1,6 +1,6 @@
 # nodejs-tello-controller
 
-Simple Node.js Tello drone controller. You are able to send command to the drone.
+Simple Node.js Tello drone controller. You are able to send command to the drone. [Tello API reference](https://dl-cdn.ryzerobotics.com/downloads/tello/0228/Tello+SDK+Readme.pdf) you use to send commands.
 
 ## Example usage
 

@@ -37,6 +37,19 @@ var Tello = function() {
 			}
 		});
 	}
+
+	/**
+	 * `direction` can be one of:
+	 * l = (left)
+	 * r = (right)
+	 * f = (forward)
+	 * b = (back)
+	 * bl = (back/left) rb = (back/right)
+	 * fl = (front/left) fr = (front/right)
+	 */
+	this.flip = function(direction) {
+		this.send('flip ' + direction);
+	}
 };
 
 exports.default = Tello;
